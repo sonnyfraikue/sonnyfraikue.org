@@ -27,32 +27,20 @@ return array(
             'name' => 'Pro Direct Sport',
             'description' => 'Spectacular Test Runner for JavaScript.',
         ),
-        'firstclarity' => array(
-            'name' => 'First Clarity',
+        'thelearningclinic' => array(
+            'name' => 'The Learning Clinic Ltd',
             'description' => 'Spectacular Test Runner for JavaScript.',
         ),
-        'firstclarity' => array(
-            'name' => 'First Clarity',
+        'fcbinferno' => array(
+            'name' => 'FCB Inferno',
             'description' => 'Spectacular Test Runner for JavaScript.',
         ),
-        'firstclarity' => array(
-            'name' => 'First Clarity',
+        'tmw' => array(
+            'name' => 'TMW Agency',
             'description' => 'Spectacular Test Runner for JavaScript.',
         ),
-        'firstclarity' => array(
-            'name' => 'First Clarity',
-            'description' => 'Spectacular Test Runner for JavaScript.',
-        ),
-        'firstclarity' => array(
-            'name' => 'First Clarity',
-            'description' => 'Spectacular Test Runner for JavaScript.',
-        ),
-        'firstclarity' => array(
-            'name' => 'First Clarity',
-            'description' => 'Spectacular Test Runner for JavaScript.',
-        ),
-        'firstclarity' => array(
-            'name' => 'First Clarity',
+        'movingbrands' => array(
+            'name' => 'Moving Brands',
             'description' => 'Spectacular Test Runner for JavaScript.',
         ),
     ),
