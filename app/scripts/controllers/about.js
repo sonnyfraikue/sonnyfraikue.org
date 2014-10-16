@@ -25,8 +25,8 @@ angular.module('sonnyfraikueorgApp')
     $http({method: 'GET', url: '/api/features'}).
 
       success(function (data) {
+        console.log('abt');
         $scope.loading = false;
-        console.log(data);
         $scope.awesomeThings = data;
 
         // Get description of each thing
