@@ -23,11 +23,11 @@ angular
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
-      .when('/about', {
+      .when('/education', {
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
       })
-      .when('/usefulstuff',{
+      .when('/code',{
         templateUrl:'views/stuff.html',
         controller:'UsefulStuff'
       })
