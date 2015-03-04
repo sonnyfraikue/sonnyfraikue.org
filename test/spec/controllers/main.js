@@ -15,57 +15,67 @@ describe('Controller: MainCtrl', function () {
     });
   }));
 
-  it('should attach a list of awesomeThings to the scope', inject(function ($httpBackend) {
+  it('should attach a list of projects to the scope', inject(function ($httpBackend) {
 
     $httpBackend.whenGET('/api/features').respond([
       {
         id: 'txtnation',
         name: 'txtNation',
+        logo: '/image/logo.png',
         href: '/api/features/txtnation'
       },
       {
         id: 'feburman',
         name: 'FE Burman Ltd',
+        logo: '/image/logo.png',
         href: '/api/features/feburman'
       },
       {
         id: 'firstclarity',
         name: 'First Clarity',
+        logo: '/image/logo.png',
         href: '/api/features/firstclarity'
       },
       {
         id: 'katchup',
         name: 'Katchup',
+        logo: '/image/logo.png',
         href: '/api/features/katchup'
       },
       {
         id: 'riverisland',
         name: 'River Island',
+        logo: '/image/logo.png',
         href: '/api/features/riverisland'
       },
       {
         id: 'prodirect',
         name: 'Pro Direct Sport',
+        logo: '/image/logo.png',
         href: '/api/features/prodirect'
       },
       {
         id: 'thelearningclinic',
         name: 'The Learning Clinic Ltd',
+        logo: '/image/logo.png',
         href: '/api/features/thelearningclinic'
       },
       {
         id: 'fcbinferno',
         name: 'FCB Inferno',
+        logo: '/image/logo.png',
         href: '/api/features/fcbinferno'
       },
       {
         id: 'tmw',
         name: 'TMW Agency',
+        logo: '/image/logo.png',
         href: '/api/features/tmw'
       },
       {
         id: 'movingbrands',
         name: 'Moving Brands',
+        logo: '/image/logo.png',
         href: '/api/features/movingbrands'
       }
     ]);
@@ -73,42 +83,52 @@ describe('Controller: MainCtrl', function () {
     var resources = {
       'txtnation': {
         name: 'txtNation',
+        logo: '/image/logo.png',
         description: 'txtnation'
       },
       feburman: {
         name: 'FE Burman Ltd',
+        logo: '/image/logo.png',
         description: 'feburman'
       },
       firstclarity: {
         name: 'First Clarity',
+        logo: '/image/logo.png',
         description: 'firstclarity'
       },
       katchup: {
         name: 'Katchup',
+        logo: '/image/logo.png',
         description: 'katchup'
       },
       riverisland: {
         name: 'River Island',
+        logo: '/image/logo.png',
         description: 'riverisland'
       },
       prodirect: {
         name: 'Pro Direct Sport',
+        logo: '/image/logo.png',
         description: 'Spectacular Test Runner for JavaScript.'
       },
       thelearningclinic: {
         name: 'The Learning Clinic Ltd',
+        logo: '/image/logo.png',
         description: 'Spectacular Test Runner for JavaScript.'
       },
       fcbinferno: {
         name: 'FCB Inferno',
+        logo: '/image/logo.png',
         description: 'Spectacular Test Runner for JavaScript.'
       },
       tmw: {
         name: 'TMW Agency',
+        logo: '/image/logo.png',
         description: 'Spectacular Test Runner for JavaScript.'
       },
       movingbrands: {
         name: 'Moving Brands',
+        logo: '/image/logo.png',
         description: 'Spectacular Test Runner for JavaScript.'
       }
     };
@@ -125,6 +145,6 @@ describe('Controller: MainCtrl', function () {
 
     $httpBackend.flush();
 
-    expect(scope.awesomeThings.length).toBe(10);
+    expect(scope.projects.length).toBe(10);
   }));
 });

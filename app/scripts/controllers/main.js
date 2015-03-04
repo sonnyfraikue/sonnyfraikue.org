@@ -18,7 +18,7 @@ angular.module('sonnyfraikueorgApp')
       };
     }
 
-    $scope.awesomeThings = [];
+    $scope.projects = [];
     $scope.loading = true;
 
     // Get awesome things list
@@ -26,10 +26,10 @@ angular.module('sonnyfraikueorgApp')
 
       success(function (data) {
         $scope.loading = false;
-        $scope.awesomeThings = data;
-
+        $scope.projects = data;
+        console.log($scope.projects);
         // Get description of each thing
-        $scope.awesomeThings.forEach(function (thing) {
+        $scope.projects.forEach(function (thing) {
           thing.loading = true;
 
           $http({method: 'GET', url: thing.href}).

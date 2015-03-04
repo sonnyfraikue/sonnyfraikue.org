@@ -127,6 +127,6 @@ describe('Controller: AboutCtrl', function () {
 
     $httpBackend.flush();
 
-    expect(scope.awesomeThings.length).toBe(10);
+    expect(scope.projects.length).toBe(10);
   }));
 });
